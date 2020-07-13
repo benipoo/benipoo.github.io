@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Documentation | benipoo.github.io</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="Documentation" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Personal website" />
+<meta property="og:description" content="Personal website" />
+<link rel="canonical" href="http://localhost:4000/assets/plugins/github-calendar/DOCUMENTATION.html" />
+<meta property="og:url" content="http://localhost:4000/assets/plugins/github-calendar/DOCUMENTATION.html" />
+<meta property="og:site_name" content="benipoo.github.io" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://localhost:4000/assets/plugins/github-calendar/DOCUMENTATION.html","description":"Personal website","headline":"Documentation","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/css/style.css?v=4a15d2a8088e334615893fb62475ca1d32beb018">
+  </head>
+  <body>
+    <div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="http://localhost:4000/">benipoo.github.io</a></h1>
+      
+
+      <h2 id="documentation">Documentation</h2>
+
+<p>You can see below the API reference of this module.</p>
+
+<h3 id="githubcalendarcontainer-username-options"><code class="language-plaintext highlighter-rouge">GitHubCalendar(container, username, options)</code></h3>
+<p>Brings the contributions calendar from GitHub (provided username) into your page.</p>
+
+<h4 id="params">Params</h4>
+
+<ul>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>**String</td>
+          <td>HTMLElement** <code class="language-plaintext highlighter-rouge">container</code>: The calendar container (query selector or the element itself).</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li><strong>String</strong> <code class="language-plaintext highlighter-rouge">username</code>: The GitHub username.</li>
+  <li><strong>Object</strong> <code class="language-plaintext highlighter-rouge">options</code>: An object containing the following fields:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">summary_text</code> (String): The text that appears under the calendar (defaults to: <code class="language-plaintext highlighter-rouge">"Summary of
+pull requests, issues opened, and commits made by &lt;username&gt;"</code>).</li>
+      <li><code class="language-plaintext highlighter-rouge">proxy</code> (Function): A function that receives as argument an url (string) and should return the proxied url.
+The default is using <a href="https://github.com/izuzak">@izuzak</a>’s <a href="https://github.com/izuzak/urlreq"><code class="language-plaintext highlighter-rouge">urlreq</code></a>.</li>
+      <li><code class="language-plaintext highlighter-rouge">global_stats</code> (Boolean): If <code class="language-plaintext highlighter-rouge">false</code>, the global stats (total, longest and current streaks) will not be calculated and displayed. By default this is enabled.</li>
+      <li><code class="language-plaintext highlighter-rouge">responsive</code> (Boolean): If <code class="language-plaintext highlighter-rouge">true</code>, the graph is changed to scale with the container. Custom CSS should be applied to the element to scale it appropriately. By default this is disabled.</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="return">Return</h4>
+<ul>
+  <li><strong>Promise</strong> A promise returned by the <code class="language-plaintext highlighter-rouge">fetch()</code> call.</li>
+</ul>
+
+
+
+      
+      <div class="footer border-top border-gray-light mt-5 pt-3 text-right text-gray">
+        This site is open source. <a href="https://github.com/benipoo/benipoo.github.io/edit/gh-pages/assets/plugins/github-calendar/DOCUMENTATION.md">Improve this page</a>.
+      </div>
+      
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
+    <script>anchors.add();</script>
+    
+  </body>
+</html>
