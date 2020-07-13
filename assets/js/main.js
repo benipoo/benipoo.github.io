@@ -28,7 +28,7 @@ jQuery(document).ready(function($) {
     $("#rss-feeds").rss(
     
         //Change this to your own rss feeds
-        "https://medium.com/feed/@hossainkhan",
+        "https://medium.com/feed/@feasterben",
         
         {
         // how many entries do you want?
@@ -60,5 +60,5 @@ jQuery(document).ready(function($) {
     );
     
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar or https://github.com/Bloggify/github-calendar/tree/1.3.4 */
-    GitHubCalendar("#github-graph", "amardeshbd", { responsive: true });
+    GitHubCalendar("#github-graph", "benipoo", { responsive: true });
 });
