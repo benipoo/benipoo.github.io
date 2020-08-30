@@ -140,13 +140,13 @@ iframe {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .header .profile-content .name {
-  color: #50fa7b;
+  color: #f8f8f2;
   font-size: 38px;
   margin-bottom: 5px;
   margin-top: 30px;
 }
 .header .profile-content .desc {
-  color: #bd93f9;
+  color: #f8f8f2;
   font-family: "Lato", arial, sans-serif;/*circle backgrounds*/
   font-weight: 400;
   font-size: 24px;
